@@ -24,7 +24,7 @@ struct MainTabView: View {
 
             WheelView()
                 .tabItem {
-                    Label("Roue", systemImage: "circle.grid.cross")
+                    Label("Roues", systemImage: "circle.grid.cross")
                 }
                 .tag(Tab.wheel)
 
