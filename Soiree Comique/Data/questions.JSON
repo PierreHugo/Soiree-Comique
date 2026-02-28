@@ -1,0 +1,32 @@
+[
+    { "id": "A2C1EBAA-1F44-4C8A-AE8C-9D8B2B8F2D11", "game": "pointeDuDoigt", "text": "Qui est le plus susceptible d’arriver en retard ?" },
+    { "id": "B1B2C3D4-1111-2222-3333-444444444444", "game": "pointeDuDoigt", "text": "Qui est le moins susceptible de répondre au téléphone ?" },
+    
+    { "id": "C0FFEE00-AAAA-BBBB-CCCC-123456789012", "game": "jeNAiJamais", "text": "Je n’ai jamais envoyé un message à la mauvaise personne." },
+    { "id": "D00DCAFE-AAAA-BBBB-CCCC-123456789012", "game": "jeNAiJamais", "text": "Je n’ai jamais menti sur mon âge." },
+    
+    { "id": "0E1D2C3B-4A59-6877-8695-A4B3C2D1E0F1", "game": "actionOuShot", "text": "Fais 10 pompes", "difficulty": 1 },
+    { "id": "1F2E3D4C-5B6A-7988-8796-B5C4D3E2F1A0", "game": "actionOuShot", "text": "Chante le refrain d’une chanson au hasard", "difficulty": 1 },
+    { "id": "2A3B4C5D-6E7F-8091-92A3-C4D5E6F7A8B9", "game": "actionOuShot", "text": "Imite un animal pendant 15 secondes", "difficulty": 1 },
+    { "id": "3B4C5D6E-7F80-91A2-A3B4-D5E6F7A8B9C0", "game": "actionOuShot", "text": "Fais 20 secondes de danse ridicule", "difficulty": 1 },
+    { "id": "4C5D6E7F-8091-A2B3-B4C5-E6F7A8B9C0D1", "game": "actionOuShot", "text": "Fais une déclaration d’amour dramatique à une chaise", "difficulty": 1 },
+    
+    { "id": "5D6E7F80-91A2-B3C4-C5D6-F7A8B9C0D1E2", "game": "actionOuShot", "text": "Raconte une anecdote gênante en 20 secondes", "difficulty": 2 },
+    { "id": "6E7F8091-A2B3-C4D5-D6E7-A8B9C0D1E2F3", "game": "actionOuShot", "text": "Fais 30 secondes de gainage", "difficulty": 2 },
+    { "id": "7F8091A2-B3C4-D5E6-E7F8-B9C0D1E2F3A4", "game": "actionOuShot", "text": "Fais un compliment sincère à chaque personne", "difficulty": 2 },
+    { "id": "8091A2B3-C4D5-E6F7-F809-C0D1E2F3A4B5", "game": "actionOuShot", "text": "Parle avec un accent au choix pendant 1 minute", "difficulty": 2 },
+    { "id": "91A2B3C4-D5E6-F7A8-A9B0-D1E2F3A4B5C6", "game": "actionOuShot", "text": "Laisse le groupe choisir un surnom pour toi jusqu’au prochain tour", "difficulty": 2 },
+    
+    { "id": "A2B3C4D5-E6F7-A8B9-B0C1-E2F3A4B5C6D7", "game": "actionOuShot", "text": "Fais 15 squats", "difficulty": 3 },
+    { "id": "B3C4D5E6-F7A8-B9C0-C1D2-F3A4B5C6D7E8", "game": "actionOuShot", "text": "Laisse quelqu’un écrire un mot sur ton front au marqueur", "difficulty": 3 },
+    { "id": "C4D5E6F7-A8B9-C0D1-D2E3-A4B5C6D7E8F9", "game": "actionOuShot", "text": "Échange ta place avec quelqu’un en restant sérieux", "difficulty": 3 },
+    { "id": "D5E6F7A8-B9C0-D1E2-E3F4-B5C6D7E8F9A0", "game": "actionOuShot", "text": "Fais une imitation de quelqu’un du groupe et laisse deviner qui c’est", "difficulty": 3 },
+    { "id": "E6F7A8B9-C0D1-E2F3-F4A5-C6D7E8F9A0B1", "game": "actionOuShot", "text": "Récite l’alphabet à l’envers le plus loin possible", "difficulty": 3 },
+    
+    { "id": "F7A8B9C0-D1E2-F3A4-A5B6-D7E8F9A0B1C2", "game": "actionOuShot", "text": "Fais 1 minute de chaise contre un mur", "difficulty": 4 },
+    { "id": "A8B9C0D1-E2F3-A4B5-B6C7-E8F9A0B1C2D3", "game": "actionOuShot", "text": "Laisse le groupe composer un message et envoie-le à un contact au hasard", "difficulty": 4 },
+    { "id": "B9C0D1E2-F3A4-B5C6-C7D8-F9A0B1C2D3E4", "game": "actionOuShot", "text": "Fais une impro pub de 30 secondes pour un objet de la pièce", "difficulty": 4 },
+    { "id": "C0D1E2F3-A4B5-C6D7-D8E9-A0B1C2D3E4F5", "game": "actionOuShot", "text": "Laisse le groupe choisir un défi photo à réaliser maintenant", "difficulty": 4 },
+    { "id": "D1E2F3A4-B5C6-D7E8-E9F0-B1C2D3E4F5A6", "game": "actionOuShot", "text": "Fais une imitation ultra gênante pendant 30 secondes sans rire", "difficulty": 4 }
+    
+]
