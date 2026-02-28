@@ -11,7 +11,7 @@ import SwiftUI
 struct Soiree_ComiqueApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
