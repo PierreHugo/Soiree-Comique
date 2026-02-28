@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Soiree_ComiqueApp: App {
+
+    @StateObject private var themeManager = ThemeManager()
+
     var body: some Scene {
         WindowGroup {
             MainTabView()
+                .environmentObject(themeManager)
+                .preferredColorScheme(themeManager.theme.colorScheme)
+                .tint(AppColors.brandPrimary)
         }
     }
 }
