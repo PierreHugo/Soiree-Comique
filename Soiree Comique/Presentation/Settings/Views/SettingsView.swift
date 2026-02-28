@@ -14,7 +14,7 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Apparence") {
+                Section("Réglages") {
                     Picker("Thème", selection: Binding(
                         get: { themeManager.theme },
                         set: { themeManager.setTheme($0) }
@@ -26,7 +26,7 @@ struct SettingsView: View {
                     .pickerStyle(.segmented)
                 }
             }
-            .navigationTitle("Settings")
+            .navigationTitle("Réglages")
         }
     }
 }
