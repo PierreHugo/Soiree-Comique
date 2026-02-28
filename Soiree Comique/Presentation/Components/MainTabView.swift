@@ -38,6 +38,8 @@ struct MainTabView: View {
                 }
                 .tag(Tab.settings)
         }
+        .tint(AppColors.brandPrimary)
+        .background(AppColors.backgroundPrimary)
     }
 }
 
