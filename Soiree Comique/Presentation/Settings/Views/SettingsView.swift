@@ -14,7 +14,7 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Réglages") {
+                Section("Apparence") {
                     Picker("Thème", selection: Binding(
                         get: { themeManager.theme },
                         set: { themeManager.setTheme($0) }
