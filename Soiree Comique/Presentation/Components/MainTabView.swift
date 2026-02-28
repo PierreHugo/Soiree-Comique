@@ -2,6 +2,8 @@ import SwiftUI
 
 struct MainTabView: View {
 
+    @Environment(\.colorScheme) private var colorScheme
+    
     enum Tab {
         case wheel
         case questions
@@ -9,14 +11,20 @@ struct MainTabView: View {
         case settings
     }
 
-    @State private var selectedTab: Tab = .wheel   // ← défaut = Wheel
+    @State private var selectedTab: Tab = .chooser   // ← défaut = Wheel
 
     var body: some View {
         TabView(selection: $selectedTab) {
 
+            ChooserView()
+                .tabItem {
+                    Label("Chooser", systemImage: "person.2")
+                }
+                .tag(Tab.chooser)
+
             WheelView()
                 .tabItem {
-                    Label("Wheel", systemImage: "circle.grid.cross")
+                    Label("Roue", systemImage: "circle.grid.cross")
                 }
                 .tag(Tab.wheel)
 
@@ -26,20 +34,14 @@ struct MainTabView: View {
                 }
                 .tag(Tab.questions)
 
-            ChooserView()
-                .tabItem {
-                    Label("Chooser", systemImage: "person.2")
-                }
-                .tag(Tab.chooser)
-
             SettingsView()
                 .tabItem {
-                    Label("Settings", systemImage: "gearshape")
+                    Label("Réglages", systemImage: "gearshape")
                 }
                 .tag(Tab.settings)
         }
         .tint(AppColors.brandPrimary)
-        .background(AppColors.backgroundPrimary)
+        .background(AppColors.backgroundPrimary(for: colorScheme))
     }
 }
 
