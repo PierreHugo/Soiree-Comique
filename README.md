@@ -24,7 +24,9 @@ soirées entre amis.
 
 ### 🙋‍♂️ Questions 
 
--   coming soon
+-   Mode "Pointe du doigt" : les joueurs votent pour la personne qui correspond le plus à une situation donnée
+-   Mode "Je n'ai jamais" : les joueurs qui ont déjà fait une situation donnée sont désignés
+-   Mode "Action ou shot" : un joueur doit faire face à une situation imposée ou il prend un gage (4 niveaux de difficultés)
 
 ### 🎨 Thèmes
 
@@ -64,8 +66,8 @@ Presentation/ Wheel/ Chooser/ Settings/ Domain/ Models/ Core/ Theme/
 
 ## 📦 Roadmap
 
--   Feature questions
 -   Davantages de langages disponibles
+-   Davantages de modes de jeux dans la section "questions"
 
 ------------------------------------------------------------------------
 
